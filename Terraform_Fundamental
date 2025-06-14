@@ -1,6 +1,5 @@
-##################################
+
 **Terraform**
-##################################
 
 Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. 
 It is an IAC tool that allows you to build, change and version infrastructure safely and efficitently.
