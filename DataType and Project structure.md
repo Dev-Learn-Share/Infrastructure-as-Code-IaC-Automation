@@ -63,6 +63,7 @@ If not, it'll get the latest compatible version
 This is a terraform {} block, which is used to configure Terraform's own settings and behaviors. The code you provided specifically sets up the required providers for your project.
 
 terraform {
+    
   required_providers {
 
   }
