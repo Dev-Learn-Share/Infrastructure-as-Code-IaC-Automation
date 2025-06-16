@@ -63,7 +63,7 @@ If not, it'll get the latest compatible version
 This is a terraform {} block, which is used to configure Terraform's own settings and behaviors. The code you provided specifically sets up the required providers for your project.
 
 terraform {
-    
+
   required_providers {
 
   }
@@ -74,7 +74,7 @@ terraform {
 This is the terraform block, which is used for setting Terraform's behavior. 
 Inside it, the required_providers block is a dedicated space to list all the providers (like AWS, Azure, Google Cloud, etc.) that your project needs to run.
 
-terraform {
+```terraform {
   required_providers {
      aws= {
         source  = "hashicorp/aws"
