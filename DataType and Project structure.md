@@ -74,14 +74,14 @@ terraform {
 This is the terraform block, which is used for setting Terraform's behavior. 
 Inside it, the required_providers block is a dedicated space to list all the providers (like AWS, Azure, Google Cloud, etc.) that your project needs to run.
 
-```terraform {
-  required_providers {
-     aws= {
-        source  = "hashicorp/aws"
-        version = ">= 5.0, < 6.0"
-     }
-  }
-}
+    ''' terraform {
+            required_providers {
+                aws= {
+                    source  = "hashicorp/aws"
+                    version = ">= 5.0, < 6.0"
+             }
+            }
+        }
 
 *aws is the provider 
 *The 'source' tells Terraform where to download the provider from "hashicorp/aws" is the official one from the Terraform Registr.
